@@ -11,4 +11,14 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
 
+group :jekyll_plugins do
+  gem "jekyll-youtube"
+  gem "jekyll-include-cache"
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-gzip'
+  gem 'jekyll-analytics'
+  gem 'jekyll-redirect-from'
+end
+
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
